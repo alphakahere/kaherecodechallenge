@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
     <title>stat covid</title>
 </head>
 <body>
     <header id="header">
-        <p><span class="testred">c</span>ovid</p>
+        <p class="cov"><span class="testred">c</span>ovid</p>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -33,7 +35,7 @@
                 </p>
                 <div id="button">
                     <button class="button-plus">Learn More</button>
-                    <img src="play.jpg" alt="button-play">
+                    <i class="fa fa-play-circle"></i>
                 </div>
             </div>
             <div class="secondcolumn"><img src="hero.svg" alt="hero"></div>
@@ -105,7 +107,162 @@
                 </div>
             </div>
         </div>
+        <div class="steps">
+            <h3>Take Steps to protect Yourself</h3>
+            <p>
+                There is currently no vaccine to prevent coronavirus disease 2019(COVID-19). The best way to prevent illness is to avoid being exposed to this
+                virus & protect yourself.
+            </p>
+        </div>
+        <div class="row clean">
+            <div class="textclean">
+                <h3>Clean Your hands often</h3>
+                <ul>
+                    <li>
+                        Wash your hands often soap and water for at least 20
+                        seconds especially after you have been a public place, or after blowing your nose,
+                        coughing or sneezing.
+                    </li>
+                    <li>
+                        If soap and water are not readily available, use a hand sanitizer
+                        that contains at least 60% alcohol. Cover all surfaces of your hands and 
+                        rub them together until the feel dry.
+                    </li>
+                    <li>Avoid touching your eyes,nose,and mouthwith un washed hands. </li>
+                </ul>
+                <button id="watch-tutorials">Watch Tutorials</button>
+            </div>
+            <div><img src="washing_hands.svg" alt="washing_hands"></div>
+        </div>
+        <div class="row avoidg">
+            <div><img src="group_of_people.svg" alt="group_of_people"></div>
+            <div class="Avoid">
+                <h3>Avoid Close Contact</h3>
+                <ul>
+                    <li>
+                        Avoid close contact whith people who are sick.
+                    </li>
+                    <li>
+                        Put distance between yourself and other people if COVID-19 is spreading in your community.
+                        This is especially important for people who are higher risk of getting very sick.
+                    </li>
+                </ul>
+                <button class="buttonwatcht">Watch Tutorials</button>
+            </div>
+        </div>
+        <div class="step-protect">
+            <h2>Take Steps to Protect Others</h2>
+            <div class="row step-protecttext">
+                <div>
+                    <img src="stay_at_home.svg" alt="stay_at_home" class="img1">
+                    <div>
+                        <h3>Stay home if you are sick</h3>
+                        <p>
+                            Stay home if you are sick, except to get medical care.
+                            Learn what do if you are sick.
+                        </p>
+                    </div>
+                    <div class="learn-more"><a href="#">Learn More &#8594;</a></div>
+                </div>
+                <div>
+                    <img  src="cover_your_cough.svg" alt="cover_your_cough">
+                    <div>
+                        <h3>Cover coughs and sneezes</h3>
+                        <p>
+                            Cover your mouth and nose with a tissue when you cough or sneeze 
+                            or use the inside of your elbow...
+                        </p>
+                    </div>
+                    <div class="learn-more"><a href="#">Learn More &#8594;</a></div>
+                </div>
+                <div>
+                    <img  src="wear_a_mask.svg" alt="wear_a_mask">
+                    <div>
+                        <h3>Wear a facemask if you are sick</h3>
+                        <p>
+                            You should wear a facemask when you are around other people and 
+                            before you enter a healthcare provider's...
+                        </p>
+                    </div>
+                    <div class="learn-more"><a href="#">Learn More &#8594;</a></div>
+                </div>
+                <div><img src="clean.svg" alt="clean" class="img4">
+                    <div>
+                        <h3>Clean and disinfect frequently</h3>
+                        <p>
+                            Clean and disinfect frequently touched surfaces daily.
+                            This include tables,doorknobs,light switches,...
+                        </p>
+                    </div>
+                    <div class="learn-more"><a href="#">Learn More &#8594;</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="world">
+            <h1>2 Lacs confirmed cases of COVID-19 Through the world</h1>
+            <div class="row world-case">
+                <div><img src="world.svg" alt="world"></div>
+                <div id="stats">
+                    <div class="statsdiv">
+                        <div class="block1"></div>
+                        <div class="block2">
+                            <h3>209,839</h3>
+                            <h4>Confirmed cases</h4>
+                            <p>update: 20 March 2021, 17:55 GMT+6</p>
+                        </div>
+                    </div>
+                    <div class="statsdiv">
+                        <div class="block12"></div>
+                        <div class="block21">
+                            <h3>8,778</h3>
+                            <h4>Confirmed deaths</h4>
+                            <p>update: 20 March 2021, 17:55 GMT+6</p>
+                        </div>
+                    </div>
+                    <div class="statsdiv">
+                        <div class="block1"></div>
+                        <div class="block2">
+                            <h3>169</h3>
+                            <h4>Countries,areas or territories with cases</h4>
+                            <p>update: 20 March 2021, 17:55 GMT+6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footersalmon">
+            <div class="row footerow">
+                <div>
+                    <p id="fleche">&#8227;</p>
+                    <p><i class="fa fa-dot-circle"></i></p>
+                    <h2>Need to Test COVID-19?</h2>
+                    <p>Just make an appointment then we'll come to you to collect your samples.</p>
+                </div>  
+                <div><button class="get">get Appointment</button></div>
+            </div>
+            <hr>
+            <div class="row navfooter">
+                <p class="cov"><span class="testred">c</span>ovid</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Appointment</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div id="icone">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">&copy;Copyright 2021 covid.All rights reserved.</div>        
+    </footer>
 </body>
 </html>
